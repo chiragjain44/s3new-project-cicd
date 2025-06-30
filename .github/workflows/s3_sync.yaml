@@ -21,4 +21,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./hdlife s3://chiragcompany
+          aws s3 sync ./hdlife s3://chiragjainbucket
